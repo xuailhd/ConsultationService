@@ -1,0 +1,1 @@
+"SwaggerDocCreator\SwaggerDocCreator.exe" -i http://localhost:7002/swagger/docs/v1 -f 新宋体 -F %windir%/fonts/simsun.ttc -o "D:\平台服务Document\3.开发\V1.0\看诊服务\看诊服务api接口.pdf"

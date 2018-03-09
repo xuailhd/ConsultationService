@@ -1,0 +1,319 @@
+{
+	"id": "2d06b920-e7ae-f573-db16-27ef4d810a36",
+	"name": "Consultation",
+	"description": "",
+	"order": [
+		"f11b5b14-939e-f8e9-5932-c10b51bcc886",
+		"2f38cec1-8252-d895-b700-f96b9e88db0e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1514962405925,
+	"owner": 0,
+	"public": false,
+	"events": [],
+	"variables": [],
+	"auth": null,
+	"requests": [
+		{
+			"id": "2f38cec1-8252-d895-b700-f96b9e88db0e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{Url}}UserOPDRegisters/Insert",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "OPDType",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "CostType",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "MemberID",
+					"value": "a6c80213b8d64f0c9451ff8fbec370fc",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "MemberName",
+					"value": "许小哥",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Gender",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Marriage",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Age",
+					"value": "29",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "IDNumber",
+					"value": "362422198902064354",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "IDType",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Mobile",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Birthday",
+					"value": "1989-02-06",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "OrgnazitionID",
+					"value": "kmwlyy",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ConsultContent",
+					"value": "看病",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ConsultDisease",
+					"value": "看病",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "UserID",
+					"value": "DB85D515890647DD9F85FBCC949A3702",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "UserAccount",
+					"value": "test115",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "UserLevel",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"auth": null,
+			"time": 1514964022446,
+			"name": "UserOPDRegisters/TodaySubmited",
+			"description": "",
+			"collectionId": "2d06b920-e7ae-f573-db16-27ef4d810a36",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "f11b5b14-939e-f8e9-5932-c10b51bcc886",
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "f11b5b14-939e-f8e9-5932-c10b51bcc886",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{Url}}UserOPDRegisters/Insert",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "OPDType",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "CostType",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "MemberID",
+					"value": "a6c80213b8d64f0c9451ff8fbec370fc",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "MemberName",
+					"value": "许小哥",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Gender",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Marriage",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Age",
+					"value": "29",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "IDNumber",
+					"value": "362422198902064354",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "IDType",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Mobile",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Birthday",
+					"value": "1989-02-06",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "OrgnazitionID",
+					"value": "kmwlyy",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ConsultContent",
+					"value": "看病",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ConsultDisease",
+					"value": "看病",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "UserID",
+					"value": "DB85D515890647DD9F85FBCC949A3702",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "UserAccount",
+					"value": "test115",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "UserLevel",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"auth": null,
+			"time": 1514964022446,
+			"name": "UserOPDRegisters/Insert",
+			"description": "",
+			"collectionId": "2d06b920-e7ae-f573-db16-27ef4d810a36",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		}
+	]
+}

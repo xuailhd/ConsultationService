@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46F24938-6514-4085-8D76-A1DF3A50804D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HealthCloud.Consultation.Enums</RootNamespace>
+    <AssemblyName>HealthCloud.Consultation.Enums</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EnumApiStatus.cs" />
+    <Compile Include="EnumCacheKey.cs" />
+    <Compile Include="EnumConsultationOperationType.cs" />
+    <Compile Include="EnumConsultationProgress.cs" />
+    <Compile Include="EnumConsultationSource.cs" />
+    <Compile Include="EnumConsultationStatus.cs" />
+    <Compile Include="EnumConsultState.cs" />
+    <Compile Include="EnumCostType.cs" />
+    <Compile Include="EnumDereplicationType.cs" />
+    <Compile Include="EnumDoctorConfigType.cs" />
+    <Compile Include="EnumDoctorServiceType.cs" />
+    <Compile Include="EnumExtendAttribute.cs" />
+    <Compile Include="EnumIMCustomMsgType.cs" />
+    <Compile Include="EnumRecordOrderType.cs" />
+    <Compile Include="EnumRegistrationMedicalType.cs" />
+    <Compile Include="EnumRegistrationType.cs" />
+    <Compile Include="EnumRoomChargingState.cs" />
+    <Compile Include="EnumRoomState.cs" />
+    <Compile Include="EnumRoomType.cs" />
+    <Compile Include="EnumTargetUserType.cs" />
+    <Compile Include="EnumTriageStatus.cs" />
+    <Compile Include="EnumUserCardType.cs" />
+    <Compile Include="EnumUserGender.cs" />
+    <Compile Include="EnumUserMaritalStatus.cs" />
+    <Compile Include="EnumUserNoticeType.cs" />
+    <Compile Include="EnumUserType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
